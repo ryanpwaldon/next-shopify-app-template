@@ -11,7 +11,9 @@
     "format": "prettier --write \"**/*.{js,cjs,mjs,ts,tsx,md,json}\" --ignore-path .gitignore"
   },
   "dependencies": {
+    "@ngrok/ngrok": "^0.5.2",
     "@prisma/client": "^4.14.0",
+    "@shopify/shopify-api": "^7.2.0",
     "@t3-oss/env-nextjs": "^0.3.1",
     "@tanstack/react-query": "^4.29.7",
     "@trpc/client": "^10.26.0",
